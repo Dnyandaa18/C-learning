@@ -7,7 +7,7 @@ int main()
 
     printf("You are %d years old.\n", age);
 
-    // Change with of 19 
+    // Change with of 19
     printf("You are %4d years old.\n", age);
 
     int year = 2025;
@@ -48,7 +48,6 @@ int main()
     bool isonline = false;
     printf("You are online: %d\n", isonline);
 
-
     // Boolean using else if statement
 
     bool isOnline = 0;
@@ -61,10 +60,9 @@ int main()
         printf("You are offline\n");
     }
 
-
-    //same case another output
+    // same case another output
     bool isOn = true;
-     if (isOn)
+    if (isOn)
     {
         printf("You are online\n");
     }
