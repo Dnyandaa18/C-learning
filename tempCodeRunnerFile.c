@@ -1,2 +1,1 @@
-scanf("%d",a);
-    scanf("%d",b);
+\n
