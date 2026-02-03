@@ -16,9 +16,23 @@ int main()
     printf("**NUMBER GUESSING GAME**\n");
     do
     {
-     printf("Guess a number between %d - %d: ", min,max);
-     scanf("%d",&guess);
-     tries++;
+        printf("Guess a number between %d - %d: ", min, max);
+        scanf("%d", &guess);
+        tries++;
+
+        if (guess < answer)
+        {
+            printf("Too Low.\n");
+        }
+        else if (guess > answer)
+        {
+            printf("Too High.\n");
+        }
+        else
+        {
+            printf("Correct.\n");
+        }
+
     } while (guess != answer);
 
     printf("The answer is %d\n", answer);
